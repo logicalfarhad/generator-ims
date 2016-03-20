@@ -1,0 +1,27 @@
+{
+  "name": "angular2",
+  "version": "1.0.0",
+  "description": "A simple starter Angular2 and webpack project",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --colors --progress --display-error-details --display-cached --port 8080 --content-base src"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.1",
+    "typescript": "1.8.0",
+    "webpack": "1.12.13",
+    "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.11",
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "es6-promise": "3.1.2",
+    "es6-shim": "^0.35.0",
+    "file-loader": "^0.8.5",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "zone.js": "0.5.15"
+  }
+}
