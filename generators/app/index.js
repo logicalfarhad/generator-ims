@@ -50,15 +50,15 @@ module.exports = yeoman.generators.Base.extend({
       this.destinationPath('src/app/Site.css')
     );
     this.fs.copy(
-      this.templatePath('app.ts'),
+      this.templatePath('app.txt'),
       this.destinationPath('src/app.ts')
     );
     this.fs.copy(
-      this.templatePath('lib.ts'),
+      this.templatePath('lib.txt'),
       this.destinationPath('src/lib.ts')
     );
     this.fs.copy(
-      this.templatePath('seed-app.ts'),
+      this.templatePath('seed-app.txt'),
       this.destinationPath('src/app/seed-app.ts')
     );
   },
